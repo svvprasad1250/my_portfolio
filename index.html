@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad Porfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/parsi.ico">
+    <script src="./assets/js/Script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar border-bottom">
+        <div class="navbar-container">
+            <h1 class="px-3 fw-bolder">SVV PRASAD</h1>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="nav-menu ">
+            <ul class="">
+                <li class=""><a href="index.html" class="py-0 pe-0 ps-0" style="border-bottom: 3px solid #00bbf9;">HOME</a></li>
+                <li><a href="#skills" class="py-0 pe-0 ps-0">SKILLS</a></li>
+                <li><a href="#projects1" class="py-0 pe-0 ps-0">PROJECTS</a></li>
+                <li><a href="#contact" class="py-0 pe-0 ps-0">CONTACT</a></li>
+            </ul>
+            <div class="hulk1" style="display: flex; gap: 10px;">
+                <a href="./assets/images/svv_prasad_21BF1A1250.pdf" class="resume-button rounded-pill">RESUME</a>
+                <div id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header style="">
+        <img src="./assets/images/mine.webp" alt="prasad">
+        <h1 class="mt-2">Hello , I'm prasad <span class="about-me"></span></h1>
+        <p class="container p-4 fs-5 text-center">Motivated MERN stack developer with hands-on experience in <span style="color: #386641;" class="fw-bolder"> MongoDB, Express.js, React.js, and Node.js.</span> Seeking a challenging role to build scalable web applications, contribute to innovative projects. Passionate about clean code, continuous learning, and delivering user focused, high-performance full-stack solutions.         </p>
+    </header>
+    
+    <div class="content-container">
+        <section id="skills" class="mb-4">
+            <h2>Technical Skills</h2>
+            <div class="skils-list">
+                <ul class="skills-list ">
+                    <li>Full Stack Development</li>
+                    <li>Frontend Development</li>
+                    <li>Backend Development</li>
+                </ul>
+            </div>
+        </section>
+        <section id="skills" class="horizontal-scroll">
+            <div class="icon-container">
+                <img src="./assets/images/html.png" alt="Icon 1">
+                <img src="./assets/images/css.png" alt="Icon 2">
+                <img src="./assets/images/boot.jpeg" alt="Icon 3">
+                <img src="./assets/images/tail.png" alt="Icon 3">
+                <img src="./assets/images/js.png" alt="Icon 3">
+                <img src="./assets/images/react.png" alt="Icon 3">
+                <img src="./assets/images/es6.jpg" alt="Icon 3">
+                <img src="./assets/images/redux.png" alt="Icon 3">
+                <img src="./assets/images/java.png" alt="Icon 1">
+                <img src="./assets/images/pyt.png" alt="Icon 2">
+                <img src="./assets/images/node.png" alt="Icon 3">
+                <img src="./assets/images/sql.jpeg" alt="Icon 3">
+                <img src="./assets/images/mysql.png" alt="Icon 3">
+            </div>
+        </section>
+        <hr>
+        <section id="projects1">
+            <h1> My Projects</h1>
+            <p>Take a look of my projects.</p>
+            <section id="projects">
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="./assets/images/inven.webp">
+                        <h3>Inventory management </h3>
+                        <a href="https://svvprasad1250.github.io/Ecommerce/" target="_blank" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                    </div>
+                </div>
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="./assets/images/ecom.png">
+                        <h3>E-commerce website</h3>
+                        <a href="https://svvprasad1250.github.io/Ecommerce/" class="btn know-more " data-modal-target="#projectModal2">Know More</a>
+                    </div>
+                </div>
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="./assets/images/bank1.png">
+                        <h3>Banking Application</h3>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Comments"></textarea>
+                </div>
+                <button type="submit" class="">Submit</button>
+            </form>
+        </section>
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p> Let's Connect!</p>
+            <a href="mailto:venakataprasad@gmail.com" target="_blank" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/svv-prasad" target="_blank" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/svvprasad1250" target="_blank" class="icon-link linkedin-icon bg-secondary"><i class="fa-brands fa-github"></i></a>
+        </section>
+
+    </div>
+    <footer class="border-top">
+        <p class="fs-5 ">&copy; 2025. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
