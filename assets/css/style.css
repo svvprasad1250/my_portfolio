@@ -5,6 +5,10 @@ body{
     box-sizing: border-box;
     background-color: #bde0fe;
 }
+/* h1, h2 {
+        font-size: 25px;
+        font-weight: 600;
+    } */
 hr {
     width: 50%;
     margin: 20px auto;
@@ -22,13 +26,11 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background: rgb(197, 236, 197);
+    background: #bde0fe;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
     padding: 0px 20px;
     margin: 0px;
     height: 70px;
-    /* position: fixed; */
-    /* width: 100%; */
 }
 .navbar-container{
     display: flex;
@@ -75,7 +77,6 @@ hr {
     }
     .nav-menu ul{
         display:none;
-        /* flex-direction: column; */
     }
     .dark-mode-toggle{
         display:block;
@@ -198,6 +199,13 @@ section {
     #projects {
         grid-template-columns: 1fr;
     }
+    h1, h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .navbar-container h1{
+        font-size: 30px;
+    }
 }
 form{
     margin: 20px auto;
@@ -270,7 +278,9 @@ form button{
     header, footer {
         padding: 15px; 
     }
-
+    .navbar-container h1{
+        font-size: 30px;
+    }
     section, form {
         width: calc(100% - 20px); 
         margin: 10px auto;
@@ -283,7 +293,8 @@ form button{
     }
 
     h1, h2 {
-        font-size: 16px; 
+        font-size: 25px;
+        font-weight: 600;
     }
 }
 .fas, .fab {
